@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Ball.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIAccelerometerDelegate>
+{
+    NSMutableArray *balls;
+    UIAcceleration *lastAccel;
+}
+
+@property (strong, nonatomic) NSMutableArray *balls;
+@property (strong, nonatomic) UIAcceleration *lastAccel;
 
 @end

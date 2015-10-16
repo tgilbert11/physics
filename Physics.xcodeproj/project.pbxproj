@@ -17,13 +17,25 @@
 		B503978F1776D32600A4070F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B503978E1776D32600A4070F /* Default@2x.png */; };
 		B50397911776D32600A4070F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B50397901776D32600A4070F /* Default-568h@2x.png */; };
 		B50397941776D32600A4070F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50397921776D32600A4070F /* MainStoryboard_iPhone.storyboard */; };
-		B50397971776D32600A4070F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50397951776D32600A4070F /* MainStoryboard_iPad.storyboard */; };
 		B503979A1776D32600A4070F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50397991776D32600A4070F /* ViewController.m */; };
 		B50397A21776D32600A4070F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50397A11776D32600A4070F /* SenTestingKit.framework */; };
 		B50397A31776D32600A4070F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B503977A1776D32600A4070F /* UIKit.framework */; };
 		B50397A41776D32600A4070F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B503977C1776D32600A4070F /* Foundation.framework */; };
 		B50397AC1776D32600A4070F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B50397AA1776D32600A4070F /* InfoPlist.strings */; };
 		B50397AF1776D32600A4070F /* PhysicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50397AE1776D32600A4070F /* PhysicsTests.m */; };
+		B50397BC1776DE5900A4070F /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = B50397BB1776DE5900A4070F /* Ball.m */; };
+		B5E9AF0617775DDE00B0C761 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AEFA17775DDE00B0C761 /* black.png */; };
+		B5E9AF0717775DDE00B0C761 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AEFB17775DDE00B0C761 /* blue.png */; };
+		B5E9AF0817775DDE00B0C761 /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AEFC17775DDE00B0C761 /* brown.png */; };
+		B5E9AF0917775DDE00B0C761 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AEFD17775DDE00B0C761 /* green.png */; };
+		B5E9AF0A17775DDE00B0C761 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AEFE17775DDE00B0C761 /* orange.png */; };
+		B5E9AF0B17775DDE00B0C761 /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AEFF17775DDE00B0C761 /* pink.png */; };
+		B5E9AF0C17775DDE00B0C761 /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AF0017775DDE00B0C761 /* purple.png */; };
+		B5E9AF0D17775DDE00B0C761 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AF0117775DDE00B0C761 /* red.png */; };
+		B5E9AF0E17775DDE00B0C761 /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AF0217775DDE00B0C761 /* sky.png */; };
+		B5E9AF0F17775DDE00B0C761 /* teal.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AF0317775DDE00B0C761 /* teal.png */; };
+		B5E9AF1017775DDE00B0C761 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AF0417775DDE00B0C761 /* white.png */; };
+		B5E9AF1117775DDE00B0C761 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E9AF0517775DDE00B0C761 /* yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +63,6 @@
 		B503978E1776D32600A4070F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B50397901776D32600A4070F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B50397931776D32600A4070F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		B50397961776D32600A4070F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		B50397981776D32600A4070F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B50397991776D32600A4070F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B50397A01776D32600A4070F /* PhysicsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +71,20 @@
 		B50397AB1776D32600A4070F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B50397AD1776D32600A4070F /* PhysicsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicsTests.h; sourceTree = "<group>"; };
 		B50397AE1776D32600A4070F /* PhysicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicsTests.m; sourceTree = "<group>"; };
+		B50397BA1776DE5900A4070F /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		B50397BB1776DE5900A4070F /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
+		B5E9AEFA17775DDE00B0C761 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		B5E9AEFB17775DDE00B0C761 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		B5E9AEFC17775DDE00B0C761 /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
+		B5E9AEFD17775DDE00B0C761 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		B5E9AEFE17775DDE00B0C761 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		B5E9AEFF17775DDE00B0C761 /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = "<group>"; };
+		B5E9AF0017775DDE00B0C761 /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
+		B5E9AF0117775DDE00B0C761 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		B5E9AF0217775DDE00B0C761 /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
+		B5E9AF0317775DDE00B0C761 /* teal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teal.png; sourceTree = "<group>"; };
+		B5E9AF0417775DDE00B0C761 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		B5E9AF0517775DDE00B0C761 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,13 +144,26 @@
 		B50397801776D32600A4070F /* Physics */ = {
 			isa = PBXGroup;
 			children = (
+				B5E9AEFA17775DDE00B0C761 /* black.png */,
+				B5E9AEFB17775DDE00B0C761 /* blue.png */,
+				B5E9AEFC17775DDE00B0C761 /* brown.png */,
+				B5E9AEFD17775DDE00B0C761 /* green.png */,
+				B5E9AEFE17775DDE00B0C761 /* orange.png */,
+				B5E9AEFF17775DDE00B0C761 /* pink.png */,
+				B5E9AF0017775DDE00B0C761 /* purple.png */,
+				B5E9AF0117775DDE00B0C761 /* red.png */,
+				B5E9AF0217775DDE00B0C761 /* sky.png */,
+				B5E9AF0317775DDE00B0C761 /* teal.png */,
+				B5E9AF0417775DDE00B0C761 /* white.png */,
+				B5E9AF0517775DDE00B0C761 /* yellow.png */,
 				B50397891776D32600A4070F /* AppDelegate.h */,
 				B503978A1776D32600A4070F /* AppDelegate.m */,
 				B50397921776D32600A4070F /* MainStoryboard_iPhone.storyboard */,
-				B50397951776D32600A4070F /* MainStoryboard_iPad.storyboard */,
 				B50397981776D32600A4070F /* ViewController.h */,
 				B50397991776D32600A4070F /* ViewController.m */,
 				B50397811776D32600A4070F /* Supporting Files */,
+				B50397BA1776DE5900A4070F /* Ball.h */,
+				B50397BB1776DE5900A4070F /* Ball.m */,
 			);
 			path = Physics;
 			sourceTree = "<group>";
@@ -235,11 +273,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50397851776D32600A4070F /* InfoPlist.strings in Resources */,
+				B5E9AF1117775DDE00B0C761 /* yellow.png in Resources */,
+				B5E9AF0F17775DDE00B0C761 /* teal.png in Resources */,
+				B5E9AF0A17775DDE00B0C761 /* orange.png in Resources */,
+				B5E9AF0617775DDE00B0C761 /* black.png in Resources */,
+				B5E9AF0817775DDE00B0C761 /* brown.png in Resources */,
 				B503978D1776D32600A4070F /* Default.png in Resources */,
+				B5E9AF0B17775DDE00B0C761 /* pink.png in Resources */,
+				B5E9AF1017775DDE00B0C761 /* white.png in Resources */,
+				B5E9AF0E17775DDE00B0C761 /* sky.png in Resources */,
+				B5E9AF0717775DDE00B0C761 /* blue.png in Resources */,
 				B503978F1776D32600A4070F /* Default@2x.png in Resources */,
 				B50397911776D32600A4070F /* Default-568h@2x.png in Resources */,
+				B5E9AF0917775DDE00B0C761 /* green.png in Resources */,
 				B50397941776D32600A4070F /* MainStoryboard_iPhone.storyboard in Resources */,
-				B50397971776D32600A4070F /* MainStoryboard_iPad.storyboard in Resources */,
+				B5E9AF0D17775DDE00B0C761 /* red.png in Resources */,
+				B5E9AF0C17775DDE00B0C761 /* purple.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +326,7 @@
 				B50397871776D32600A4070F /* main.m in Sources */,
 				B503978B1776D32600A4070F /* AppDelegate.m in Sources */,
 				B503979A1776D32600A4070F /* ViewController.m in Sources */,
+				B50397BC1776DE5900A4070F /* Ball.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,14 +363,6 @@
 				B50397931776D32600A4070F /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		B50397951776D32600A4070F /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B50397961776D32600A4070F /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		B50397AA1776D32600A4070F /* InfoPlist.strings */ = {
@@ -395,10 +437,12 @@
 		B50397B31776D32600A4070F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Taylor Gilbert (7DCPJVTE8R)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
 				INFOPLIST_FILE = "Physics/Physics-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,10 +450,12 @@
 		B50397B41776D32600A4070F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Taylor Gilbert (7DCPJVTE8R)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
 				INFOPLIST_FILE = "Physics/Physics-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -467,6 +513,7 @@
 				B50397B41776D32600A4070F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B50397B51776D32600A4070F /* Build configuration list for PBXNativeTarget "PhysicsTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +522,7 @@
 				B50397B71776D32600A4070F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
